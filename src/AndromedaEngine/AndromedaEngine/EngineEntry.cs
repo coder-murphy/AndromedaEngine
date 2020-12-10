@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AndromedaEngine
+namespace AndromedaEngine.Entry
 {
     static class EngineEntry
     {
+        [STAThread]
         private static int Main()
         {
 

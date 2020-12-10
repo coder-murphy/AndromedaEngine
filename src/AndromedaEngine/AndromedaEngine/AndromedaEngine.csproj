@@ -37,6 +37,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EngineEntry.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Object.cs" />
+    <Compile Include="SceneLoad.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
